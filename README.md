@@ -1,4 +1,4 @@
-﻿# Autoprefixer Rails [![Build Status][ci-img]][ci]
+﻿# Autoprefixer Ruby on Rails [![Build Status][ci-img]][ci]
 
 <img align="right" width="94" height="71"
      src="http://postcss.github.io/autoprefixer/logo.svg"
@@ -8,15 +8,7 @@
 using values from the [Can I Use] database. This gem provides Ruby
 and Ruby on Rails integration with this JavaScript tool.
 
-<a href="https://evilmartians.com/?utm_source=autoprefixer-rails">
-<img src="https://evilmartians.com/badges/sponsored-by-evil-martians.svg" alt="Sponsored by Evil Martians" width="236" height="54">
-</a>
 
-[Autoprefixer]:     https://github.com/postcss/autoprefixer
-[Can I Use]:        http://caniuse.com/
-[PostCSS]:          https://postcss.org/
-[ci-img]:           https://travis-ci.org/ai/autoprefixer-rails.svg
-[ci]:               https://travis-ci.org/ai/autoprefixer-rails
 
 ## Differences
 
@@ -36,10 +28,6 @@ Autoprefixer Rails uses [ExecJS] that will use the best available JavaScript
 runtime. Currently this gem is tested to work with Node.js version 10 and up
 and with [mini_racer], but will not work with [therubyracer].
 
-[Node.js]: http://nodejs.org/
-[ExecJS]: https://github.com/rails/execjs
-[mini_racer]: https://github.com/discourse/mini_racer
-[therubyracer]: https://github.com/cowboyd/therubyracer
 
 ### Ruby on Rails
 
@@ -116,9 +104,6 @@ To disable Autoprefixer just remove postprocessor:
 ```ruby
 AutoprefixerRails.uninstall(Rails.application.assets)
 ```
-
-[Browserslist docs]: https://github.com/ai/browserslist
-[Firefox ESR]:       http://www.mozilla.org/en/firefox/organizations/faq/
 
 ### Sprockets
 
