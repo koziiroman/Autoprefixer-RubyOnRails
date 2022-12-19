@@ -1,8 +1,5 @@
 ﻿# Autoprefixer Ruby on Rails [![Build Status][ci-img]][ci]
 
-<img align="right" width="94" height="71"
-     src="http://postcss.github.io/autoprefixer/logo.svg"
-     title="Autoprefixer logo by Anton Lovchikov">
 
 [Autoprefixer] is a tool to parse CSS and add vendor prefixes to CSS rules
 using values from the [Can I Use] database. This gem provides Ruby
@@ -211,8 +208,6 @@ result.map #=> Source map from main.sass to main.min.css
 See all options in [PostCSS docs]. AutoprefixerRails will convert Ruby style
 to JS style, so you can use `map: { sources_content: false }`
 instead of camelcase `sourcesContent`.
-
-[PostCSS docs]: https://github.com/postcss/postcss#source-map-1
 
 
 ## Security Contact
